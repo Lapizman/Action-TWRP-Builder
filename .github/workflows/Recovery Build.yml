@@ -75,7 +75,7 @@ jobs:
        sudo dpkg --add-architecture i386
        sudo apt-get update
        sudo apt-get -y upgrade
-       sudo apt-get install -y gperf gcc-multilib gcc-10-multilib g++-multilib g++-10-multilib libc6-dev libncurses5-dev libncurses5-dev:i386 libwxgtk3.0-dev x11proto-core-dev libx11-dev tree lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip bc python3 python3-pip zip curl repo git wget rsync openssl
+       sudo apt-get install -y gperf gcc-multilib gcc-10-multilib g++-multilib g++-10-multilib libc6-dev libncurses5-dev libncurses5-dev:i386 libwxgtk3.2-dev x11proto-core-dev libx11-dev tree lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip bc python3 python3-pip zip curl repo git wget rsync openssl
 
     - name: Install OpenJDK
       uses: actions/setup-java@v3
